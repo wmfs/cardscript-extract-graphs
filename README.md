@@ -27,6 +27,7 @@ const graphs = extractGraphs(
     "type": "AdaptiveCard",
     "body": [
       {
+        "id": "testGraph",
         "type": "Graph",
         "stats": {
           "mean": "{{data.mean}}",
